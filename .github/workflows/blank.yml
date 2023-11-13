@@ -34,4 +34,5 @@ jobs:
         run: |
           npm config set //registry.npmjs.org/:_authToken=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
           npm publish --access=public
+          npm config set registry https://registry.npmjs.org/
           echo Published
