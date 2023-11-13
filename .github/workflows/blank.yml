@@ -32,6 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Publish
         run: |
-
-          npm publish --registry=https://registry.npmjs.org/ --//registry.npmjs.org/:_authToken=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 
+          npm config set //registry.npmjs.org/:_authToken=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
+          npm login --access=public
           echo Published
