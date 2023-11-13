@@ -27,8 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Before script
-        run: echo Starting...!
-
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org
       # Runs a set of commands using the runners shell
       - name: Publish
         run: |
