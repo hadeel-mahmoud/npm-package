@@ -34,7 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Publish
         run: |
-          npm ci
+          npm install
           npm publish --access=public
           echo Published
         env:
