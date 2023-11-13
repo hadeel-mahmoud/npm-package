@@ -32,5 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Publish
         run: |
+          npm config set _authToken=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
           npm publish --access=public,
           echo Published
