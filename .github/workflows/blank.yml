@@ -34,7 +34,5 @@ jobs:
         run: |
           npm publish --access=public
           echo Published
-        with:
-          registry-url: https://registry.npmjs.org
         env:
           NODE_AUTH_TOKEN: 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
