@@ -35,4 +35,4 @@ jobs:
           npm publish --access=public
           echo Published
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
