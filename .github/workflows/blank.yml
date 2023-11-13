@@ -34,8 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Publish
         run: |
-          npm install
           npm publish --access=public
           echo Published
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
